@@ -65,6 +65,8 @@
     "postinstall-prepare": "1.0.1",
     "prettier": "1.12.1",
     "react-dom": "16.2.0",
+    "react-native-touch-through-view":
+      "github:simonhoss/react-native-touch-through-view",
     "react-native-typescript-transformer": "1.2.5",
     "react-powerplug": "0.1.5",
     "react-test-renderer": "16.3.1",
