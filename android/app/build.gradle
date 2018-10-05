@@ -137,6 +137,7 @@ android {
 }
 
 dependencies {
+    compile project(':react-native-touch-through-view')
     compile project(':react-native-keychain')
     compile project(':react-native-i18n')
     compile fileTree(dir: "libs", include: ["*.jar"])
