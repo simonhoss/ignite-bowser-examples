@@ -26,6 +26,7 @@
   },
   "dependencies": {
     "apisauce": "0.14.3",
+    "install": "^0.12.1",
     "lodash.throttle": "4.1.1",
     "mobx": "4.2.1",
     "mobx-react": "5.1.2",
