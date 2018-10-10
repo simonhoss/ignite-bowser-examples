@@ -1,14 +1,5 @@
-import React, { Component } from "react"
-import {
-  StyleSheet,
-  Text,
-  Image,
-  Dimensions,
-  ScrollView,
-  ListView,
-  Button,
-  View,
-} from "react-native"
+import React from "react"
+import { Button, Image, ListView, StyleSheet, Text, View } from "react-native"
 import {
   TouchThroughView,
   TouchThroughWrapper,
@@ -20,15 +11,15 @@ export class IndexScreen extends React.Component<IndexScreenProps, {}> {
     return (
       <View style={styles.container}>
         <View style={styles.artistInfo}>
-          <View style={styles.albumImageWrapper}>
-            <Image source={require("./album.jpg")} style={styles.albumImage} />
-          </View>
           <Button
             title="Play"
             onPress={() => {
               alert("Touched!")
             }}
           />
+          <View style={styles.albumImageWrapper}>
+            <Image source={require("./album.jpg")} style={styles.albumImage} />
+          </View>
         </View>
         <TouchThroughWrapper style={styles.scrollWrapper}>
           <ListView
